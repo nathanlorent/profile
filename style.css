@@ -1,0 +1,104 @@
+h1 {
+    color: #033F63; 
+	font-size: 32px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
+
+h2 {
+    color: #28666E; 
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    color: rgb(82 0 0);
+    background-color: #F0F7F4; 
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	text-align: justify;
+	
+}
+a {
+	text-decoration: none;
+	color: #7F636E;
+	font-weight: bold;
+	font-family: Helvetica;
+}
+a:hover {
+	color: #A2E3C4;
+}	
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
+.card_white {
+	background-color: white; 
+	padding: 40px; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn_blue {
+	background-color: #7F636E;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+.btn_blue:hover {
+	background-color: #033F63;
+	color: white;
+	}
+.list_inline {
+	list-style: none; 
+	padding-left: 0px; 
+}
+.list_inline li {
+	display: inline; 
+	padding: 10px; 
+
+}
+.list_inline i {
+	font-size: 50px; 
+	color: #7F636E;	
+}
+.list_inline i:hover  {
+	color: #033F63;	
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
